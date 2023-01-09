@@ -1,22 +1,21 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { Link } from 'react-router-dom'
 function Navbar1() {
   return (
     <>
-      
+
       <Navbar bg="primary" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">BVUR</Navbar.Brand>
+          <Link to='/' style={{ color: 'inherit', textDecoration: 'inherit' }}><Navbar.Brand href="#home">BVUR</Navbar.Brand></Link>
           <Nav className="me-auto">
-            <Nav.Link href="#home">ALL</Nav.Link>
-            <Nav.Link href="#features">UPDATE</Nav.Link>
-            <Nav.Link href="#pricing">DELETE</Nav.Link>
+            <Link to='/all' style={{ color: 'inherit', textDecoration: 'inherit'}}><Nav.Link href="#home">ALL</Nav.Link></Link>
+            <Link to='/update' style={{ color: 'inherit', textDecoration: 'inherit' }}><Nav.Link href="#features">UPDATE</Nav.Link></Link>
+            <Link to='/delete' style={{ color: 'inherit', textDecoration: 'inherit' }}><Nav.Link href="#pricing">DELETE</Nav.Link></Link>
           </Nav>
         </Container>
       </Navbar>
-    
     </>
   );
 }

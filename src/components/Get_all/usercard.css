@@ -1,0 +1,35 @@
+.updateCardRowSt{
+    margin-left:2vw;
+    margin-top:12vh;
+    width: 63vw;
+    height: fit-content;
+    border-radius: 8px;
+    z-index:20;
+    background:none;
+    /* background-color: rgb(226, 132, 132); */
+    background-color: rgba(238, 241, 255, 0.5);
+    margin-bottom: 1vh;
+    padding: 0px;
+    padding-right:8px;
+    padding-left:8px;
+}
+.updateCdTitle{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.5rem;
+line-height: 20px;
+color: #000000;
+background:none;
+padding:10px;
+}
+.updateCdDesc{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 20px;
+    color: #000000;
+    background:none;
+padding:10px;
+}
